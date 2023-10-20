@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>module2-solution</title>
+</head>
+<style>
+    /*basic style*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        margin: 100px;
+        text-align: center;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 175%;
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .sub1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(214, 124, 124);
+
+    }
+
+    .sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+
+    }
+
+    .sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile version*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <h1>Our Menu</h1>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub1">Percy Jackson</p>
+            <p class="content">  Percy is a 12-year-old child at the start of the book who has ADHD and has trouble concentrating. He is a demi-god i.e. child of a mortal/human and a god and hence is quite powerful. His father is one of the big three greek Gods, namely Poseidon. Being a demigod, Percy possesses various abilities, including control over water, the power to communicate with sea creatures, and increased strength and resilience. He wields a magical sword called Riptide.Percy is portrayed as brave, loyal, and witty. He can be impulsive and sarcastic but is ultimately a hero who cares deeply for his friends and is determined to do the right thing.                
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub2">Annabeth Chase</p>
+            <p class="content">Annabeth is also a 12-year-old child who has supposedly spent her childhood fighting demons as she is a special child of the Greek Goddess Athena who is the goddess of wisdom. Annabeth was raised in a tumultuous family situation and faced challenges growing up as a demigod. She eventually found her way to Camp Half-Blood, where she trained and formed lasting friendships with other demigods.: Annabeth is highly intelligent, strategic, and resourceful. She is a natural leader and is often referred to as the "Wise Girl." Annabeth is brave and fiercely loyal to her friends, especially Percy Jackson. She is also determined to prove herself as a capable demigod.</p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <div>
+            <p class="sub3">Grover Underwod</p>
+            <p class="content">Grover is a satyr, a mythological creature, and his age is not explicitly mentioned in the series. Satyrs in Greek mythology are typically portrayed as older beings who have been around for centuries.He is a satyr, a creature with the upper body of a human and the lower body of a goat. In the series, satyrs often serve as protectors of demigods and have a strong connection to nature. Grover is depicted as kind, sensitive, and somewhat timid.</p>
+        </div>
+</body>
+
+</html>
